@@ -1,0 +1,163 @@
+*{
+    color:rgba(255,255,255,0.8);
+}
+body{
+    background-image: url("images/bg-one.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    height:100%;
+}
+.nav{
+    background:rgba(0,0,0,0.2);
+    color:#fff;
+    padding:10px;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    margin-left:-1%;
+    margin-top:-1%;
+}
+.nav:hover{
+    background:rgba(0,0,0,0.3);
+}
+.circus{
+    font-size:30px;;
+}
+.head-logo{
+    float:left;
+    width:40%;
+    overflow:hidden;
+}
+.head-logo>a{
+    float:left;
+    margin-top:1%;
+
+}
+.head-logo>h1{
+    float:right;
+    margin-right:15%;
+}
+.logo{
+    height:70px;
+    width:50px;
+}
+.nav-links{
+    float:right;
+}
+.nav>ul{
+    margin-right:10%;
+    margin-top:2%;
+}
+.nav>ul>li{
+    display:inline;
+    padding:6px;
+}
+.nav>ul>li:hover{
+    border-bottom:2px solid #fff;
+}
+ul>li>a{
+    text-decoration:none;
+    color:white;
+    display:inline;
+}
+.intro{
+    background:rgba(255,255,255,0.1);
+    width:40%;
+    padding:10px;
+    text-align:center;
+    margin: 10px auto;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border:1px solid white;
+}
+#mv{
+    width:90%;
+    margin: 5% auto;
+    overflow: hidden;
+}
+.m{
+    float:left;
+}
+.v{
+    float:right;
+}
+.holder{
+    width:40%;
+    background:rgba(255,255,255,0.1);
+    padding:10px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border:1px solid white;
+    text-align:center;
+}
+.col-head{
+    text-align:center;
+}
+.under{
+    padding:2px;
+    background:white;
+    width:10%;
+    margin:auto;
+    margin-top:-15px;
+}
+.passport{
+    height:150px;
+    width:100%;
+}
+.col-column{
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border:1px solid white;
+    padding:5px;
+    width:20%;
+    text-align:center;
+    margin: 5%;
+}
+.col-column>ul>li{
+    list-style-type:none;
+}
+.col-column>ul{
+    font-size:13px;
+    margin-top:-3px;
+}
+.bold{
+    font-weight:bold;
+}
+.col-container{
+width:100%;
+display:flex;
+}
+.ser-container{
+width:100;
+display:flex;
+}
+.ser-column{
+    border-radius:10px;
+    border:1px solid white;
+    padding:5px;
+    text-align:center;
+    margin:3%;
+    width:35%;
+    height:30%;
+}
+footer{
+    padding:10px;
+    background:rgba(0,0,0,0.5);
+    color:orangered;
+}
+footer>h2{
+    font-size:15px;
+    color:orangered;
+}
+footer>ul{
+    list-style-type:none;
+    margin-right:10px;
+}
+footer>ul>li{
+    display:inline;
+    margin: 0px 8px;
+}
+.coprights{
+    text-align:center;
+}

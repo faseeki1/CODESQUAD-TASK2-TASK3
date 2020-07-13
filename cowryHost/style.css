@@ -1,0 +1,945 @@
+/*ff3e00
+ff7907
+709718*/
+/*
+===============================================Top Row==============================================================
+*/
+.top-row{
+    padding: 2px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: -3px!important;
+}
+.top-text{
+    font-size:10px;
+}
+.top-fa-link{
+    color: gray;
+    margin: 0 5px;
+}
+.top-fa-link:hover{
+    color: #ff7907;
+}
+.top-social{
+    margin-top:1.2rem;
+}
+.login-box{
+    background: #709718;
+    border-radius:2rem;
+    box-shadow: 0px 8px 14px gray;
+    font-size: 12px;
+    padding: 12px;
+    position:relative;
+    top:1.2rem;
+    color:white;
+    width:100%;
+}
+.login-box:hover{
+    border: 1px solid #709718;
+    text-decoration: none;
+    color: #709718;
+    background: white;
+}
+/*
+====================================Navigation Bar =======================================================
+*/
+.navbar{
+    padding:0!important;
+    background:rgb(217, 241, 217);
+}
+.navbar-brand{
+    margin-left:7%;
+}
+.navbar-nav{
+    margin-right: 10%;
+}
+.nav-item{
+    padding:5px 1rem;
+    margin: 0!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0!important;
+    color:#ff3e00!important;
+}
+.nav-link:hover,
+.nav-link.active{
+    color: #ff7907;
+    background:none;
+}
+.dropdownn{
+    width:9rem;
+    color:white;
+    padding:15px 15px 15px 0px;
+    list-style-type: none;
+    position:absolute;
+    display: none;
+    z-index: 1;
+}
+.dropdown-base:hover ul{
+    display:block;
+}
+.drop-list{
+    background: #ff7907;
+    box-shadow: 0px 6px 12px 0px gray;
+    border-bottom: 1px solid white;
+    color:white;
+    padding: 1rem;
+    width:100%;
+    animation-name: flip;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.drop-list:hover{
+    background: #ff3e00;
+}
+.drop-list a{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+@keyframes flip{
+    0%{
+        opacity: 0;
+        border-radius:3.5rem;
+        transform: scale(0.3,0.3);
+    }
+    100%{
+        opacity: 1;
+        border-radius: 0;
+        transform: scale(1,1);
+        }
+}
+
+/*
+====================================================== Image Carousel ===============================================================
+*/
+
+.item-one{
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.1)), url("img/chh3.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 40%;
+}
+.item-two{
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.1)), url("img/imgg.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 40%;
+}
+.item-three{
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.1)), url("img/imgg2.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 40%;
+}
+.item-four{
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.1)), url("img/imgg1.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 40%;
+}
+.caption-car h1{
+    font-size:3rem;
+    font-weight:900;
+    animation-name: peak;
+    animation-duration: 1.2s;
+}
+.caption-car p{
+    font-size:1.2rem;
+    font-weight:200;
+    animation-name: fromdown;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+.car-2 h1{
+    font-size:3rem;
+    font-weight:900;
+    animation-name: peak;
+    animation-duration: 1.2s;  
+}
+.car-2 p{
+    font-size:1.2rem;
+    font-weight:200;
+    animation-name: fromdown;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+.caption-car h2{
+    font-size:3rem;
+    font-weight:900;
+    margin-top: -1rem;
+    margin-bottom:2rem;
+    animation-name: flash;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
+.getstarted{
+    padding:  1.7rem 3rem;
+    background: #ff7907;
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    border-radius:3rem;
+    margin-top:2rem;
+    animation-name: flash;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
+.getstarted:hover{
+    border: 1px solid #ff7907;
+    background:white;
+    color: #ff7907;
+    text-decoration:none;
+
+}
+.offtag{
+    padding:1.6rem 3rem;
+    border-radius:50%;
+    width: 13rem;
+    margin-top:-2rem;
+    margin-bottom: 2rem;
+    margin-left:4rem;
+    background: #ff3e00;
+    animation-name: flash;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
+.offtag::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    position: absolute;
+    font-size:3rem;
+    color:#709718;
+    bottom:180px;
+    left: 100px;
+    animation-name: flash;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
+.offtag h3{
+    font-weight:1000;
+    color:white;
+    font-size: 1.8rem;
+    
+}
+.carousel-indicators li.active{
+    background: #ff7907;
+}
+@keyframes peak{
+    0%{
+        margin-left: -30px;
+        transform: scale(0,0);
+        opacity:0;
+    }
+    100%{
+        margin-left: 0px;
+        transform: scale(1,1);
+        opacity:1;
+    }
+}
+@keyframes fromdown{
+    0%{
+        margin-left:-80rem;
+    }
+    80%{
+        transform: skew(20deg);
+    }
+    100%{
+        margin-left:0;
+    }
+}
+@keyframes flash{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+/*
+===================================================== Domain Search Section =================================================================
+*/
+
+.search-h-row{
+    margin: 2rem 0;
+}
+.fa-arrow-circle-down, .fa-sign-language, .fa-comments, .fa-question-circle, .hs-fa, .fa-wrench{
+    animation-name: shakeY;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.underline{
+    width: 30%;
+    padding:1px;
+    background: #ff7907;
+}
+.search-h{
+    color:#ff7907;
+    font-size:2.6rem;
+    font-weight:800;
+    animation-name: zoomInDown;
+    animation-duration: 2s;
+}
+input{
+    width:100%;
+    margin:0!important;
+}
+.search-inn{
+     animation-name: zoomInDown;
+    animation-duration: 2s;
+    animation-delay: 300ms;
+    animation-fill-mode: backwards;
+}
+.search-form-input{
+    width:100%;
+    padding: 1rem 2rem;
+    border:none;
+    background: #ff7907;
+    border-right:1px solid white;
+    color:white;
+    font-size: 2rem;
+   
+}
+.search-form-select{
+    width:100%;
+    padding:1.1rem 2rem;
+    color:white;
+    background: #ff7907;
+    border-right:1px solid white;
+    margin-left:-2rem!important;
+    border:none;
+    font-size:2rem;
+}
+.search-form-search{
+    width:100%;
+    background: rgb(255, 121, 7);
+    color:white;
+    font-size:2rem;
+    padding:1rem 2rem;
+    border:none;
+    margin-left:-4rem;
+}
+.search-form-search:hover{
+    background: rgba(255, 121, 7,0.7);
+}
+.search-form-select:hover{
+    background: rgba(255, 121, 7,0.7);
+}
+.search-form-input:hover{
+    background: rgba(255, 121, 7,0.7);
+}
+
+/*
+============================================================= Hosting Section ==============================================================
+*/
+
+.hosting-row{
+    background-image:linear-gradient(to left,rgba(255,121,7,0.7),rgba(255,68,0,0.7)), url("img/pattern.jpg");
+    background-position:center center;
+    padding: 3rem 5rem 2rem 4rem;
+    color:white;
+    border-top-left-radius: 8rem;
+    border-top-right-radius: 8rem;
+}/* 
+.hosting-row::before{
+    border:none;
+    content: "";
+    height: 110px;
+    width:110px;
+    background:rgba(255,121,7,0.7);
+    z-index: 1;
+    position:absolute;
+    right:0;
+    top:943px;
+}
+.hosting-row::after{
+    border:none;
+    content: "";
+    height: 120px;
+    width:120px;
+    background:white;
+    z-index: 2;
+    position:absolute;
+    right:0;
+    top:920px;
+    border-bottom-right-radius:15rem;
+} */
+.hosting-col{
+    background:white;
+    color: #ff7907;
+    padding: 0 1rem;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+    border-radius: 3rem;
+    margin-bottom: 1.4rem; 
+}
+.hosting-col:hover{
+    box-shadow: 0 13px 24px 0 rgba(0,0,0,0.6);
+}
+.host-item{
+    padding:7px 16px;
+    border-bottom: 2px solid #ff7907;
+    font-size: 1rem;
+}
+.host-head{
+    padding: 1rem 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.host-link{
+    background: #333;
+    padding:4px 12px;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border:none;
+}
+.host-link:hover{
+    background:#ff3e00;
+    color:white;
+}
+.hosting-link, .hosting-link:hover{
+    color:white;
+    text-decoration:none;
+    font-size: 2.5rem;
+}
+.view-all{
+    padding: 1rem 3rem;
+    background:#709718;
+    color:white;
+    font-weight: 600;
+    font-size:1.8rem;
+}
+.view-all:hover{
+    background:white;
+    color:#709718;
+    border: 2px solid #709718;
+    text-decoration: none;
+}
+.host-intro-h{
+    font-size: 2.2rem;
+}
+.host-intro-p{
+    font-size:1.6rem;
+    font-weight:100;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 200ms;
+}
+
+/*
+============================================================= Websites Building Section ======================================================
+*/
+.build-row{
+    background-image:linear-gradient(to right,rgba(247, 0, 193, 0.9), rgba(0,0,0,0.8)), url("img/webb1.jpg");
+    background-size:cover;
+    background-position: center;
+    padding: 3rem 0 13rem 0;
+    color:white;
+}
+.build-h{
+    font-size:2.4rem;
+    font-weight: 800;
+}
+.build-fa{
+    font-size:5rem;
+}
+.build-p{
+    font-size:1.9rem;
+    font-weight:100;
+    margin: 2rem 0 3rem 0;
+}
+.build-btn{
+    padding: 1rem 3rem;
+    font-size:1.7rem;
+    font-weight:bold;
+    background:#ff7907;
+    border-radius:3rem;
+    color:white;
+    margin-top: 2rem;
+    text-align:right!important;
+}
+
+/*
+==============================================================FAQs=====================================================
+*/
+
+
+.show{
+    display:block;
+}
+.btnsd1{
+    border:none;
+    cursor: pointer; 
+    background: transparent;
+    color:white; 
+}
+.btnsd1:focus{
+    border:none;
+}
+.btnhd1{
+ display:none;
+ border:none;
+ cursor: pointer;
+ background: transparent;
+    color:white;
+}
+.qa-h{
+    background: #709718;
+    color:white;
+    font-size:1.2rem;
+    font-weight:400;
+    border-bottom: 1px solid white;
+}
+.qa-btn{
+    background: #ff3e00;
+    border-bottom: 1px solid white;
+    color:white;
+    font-size:1.4rem;
+    font-weight:400;
+}
+.qa-p{
+    background:#ff7907;
+    color:white;
+    font-size:1.1rem;
+    padding: 1rem;
+    font-weight:100;
+    box-shadow: 0 9px 18px 0;
+    display:none;
+}
+
+
+/*
+========================================================== Services Section ==============================================================
+*/
+.serv-hh{
+    font-size: 2.7rem;
+    color: #ff3e00;
+    font-weight: 700;
+}
+.serv-hp{
+    font-size: 2rem;
+    color: #ff3e00;
+    font-weight: 100; 
+}
+.serv-icon{
+    color:#ff3e00;
+    font-size:4rem;
+    background:white;
+    padding:2rem 4rem;
+    border-radius: 50%;
+    
+    border:2px solid #ff3e00;
+}
+.serv-icon:hover{
+    border: 3px solid white;
+    background:#ff3e00;
+    color:white;
+}
+.serv-col{
+    color: #ff3e00;
+    margin:2rem 0;
+    padding: 0 2rem;
+    box-shadow: 0 1px 2px 0 #333;
+    background: white;
+}
+.serv-col:hover{
+    box-shadow: 0 9px 18px 0 #ff3e00;
+}
+.check-serv{
+color:#709718;
+}
+.serv-col-h{
+    background: #ff3e00;
+    color:white;
+    margin: 3rem 0 1rem 0;
+}
+/*
+==========================================================Why Choose Us? ===================================================================
+*/
+.why-row{
+    color:#ff3e00;
+    margin-bottom:8rem;
+}
+.why-icon{
+    width:200px;
+    height:200px;
+}
+.why-hh{
+    font-size: 2rem;
+    font-weight:800;
+}
+.why-hp{
+    font-size:1.3rem;
+    font-weight:200;
+}
+
+
+/*
+=======================================================================PARTNERS SECTION ================================================
+*/
+.next-icon{
+    margin-left:95%;
+    position: relative;
+    top:-2rem;
+    color:#61524e;
+}
+.prev-icon{
+    position: relative;
+    top:-2rem;
+    margin-left:-1rem;
+    color:#61524e;
+}
+.next-icon:hover, .prev-icon:hover{
+    color:#ff3e00;
+}
+
+/*
+============================================================= Testimonial Section =================================================
+*/
+
+.test-item-one{
+    background-image: linear-gradient(rgba(7, 101, 124, 0.9),rgba(7, 101, 124, 0.9)), url("img/smile3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0 8rem 0;
+    color:white;
+}
+.test-item-two{
+    background-image: linear-gradient(rgba(7, 101, 124, 0.9),rgba(7, 101, 124, 0.9)), url("img/smile4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0 8rem 0;
+    color:white;
+}
+.test-item-three{
+    background-image: linear-gradient(rgba(7, 101, 124, 0.9),rgba(7, 101, 124, 0.9)), url("img/smile5.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0 8rem 0;
+    color:white;
+}
+.testimonial-img{
+    border-radius:50%;
+}
+.test-p{
+    margin-top:1rem;
+    font-size: 1.3rem;
+    font-weight:150;
+}
+.test-name{
+    color:white;
+    font-weight: 500;
+    margin-top:.5rem;
+    text-transform: italic;
+}
+
+
+
+
+
+/* @keyframes bgchange{
+    0%{
+        background-image: linear-gradient(to left,rgba()0,0,0,0.5,rgba(0,0,0,0.9)), url("img/smile4.jpg");
+        background-position:center;
+        background-size:cover; 
+    }
+    33%{
+        background-image: linear-gradient(to left,rgba()0,0,0,0.5,rgba(0,0,0,0.9)), url("img/smile3.jpg");
+    background-position:center;
+    background-size:cover;
+    }
+    66%{
+        background-image: linear-gradient(to left,rgba()0,0,0,0.5,rgba(0,0,0,0.9)), url("img/smile5.jpg");
+    background-position:center;
+    background-size:cover;
+    }
+    100%{
+        background-image: linear-gradient(to left,rgba()0,0,0,0.5,rgba(0,0,0,0.9)), url("img/smile4.jpg");
+    background-position:center;
+    background-size:cover;
+    }
+} */
+.why-h{
+    font-size: 1.5rem;
+    font-weight:100;
+}
+.smile{
+    width: 800px;
+    height: 517px;
+}
+
+
+
+
+
+
+/*
+==========================================================================Footer =======================================================
+*/
+.footer-top-fa{
+    color:gray;
+    font-size: 20px;
+    margin-top:10px;
+
+}
+.footer-top-row{
+    background:#333;
+    padding: 7px 0;
+}
+.footer-main-row{
+    background-image: linear-gradient(rgba(65, 39, 126,0.8),rgba(65, 39, 126,0.8)), url("img/pattern.jpg");
+    background-position: center;
+    background-size:cover;
+    color:rgba(255, 255, 255, 0.5);
+}
+.footer-main-row a{
+    color:rgba(255, 255, 255, 0.9);
+}
+.footer-frow{
+    margin-top: 3rem;
+}
+.footer-srow{
+    margin-top: 3rem;
+}
+.footer-formin{
+    margin-top: 2rem;
+}
+.last-row{
+    background:#333;
+    color:white;
+    padding: 1rem 0;
+}
+
+/*
+==========================================================  Media Queries =====================================================================
+*/
+@media (max-width:767px){
+    .item-one{
+        padding-top:0;
+        padding-bottom:40%;
+    }
+    .caption-car h1{
+        font-size:1.4rem;
+        margin-top:10px;
+    }
+    .caption-car h2{
+        font-size: 1rem;
+        margin-bottom:12px;
+    }
+    .caption-car{
+        margin-top: -40%;
+    }
+    .caption-car p{
+        font-size:0.8rem;
+    }
+    .getstarted{
+        padding: 5px 11px;
+        margin-top: 25px;
+    }
+    .p2{
+        margin-top:-8px;
+    }
+    .car-2{
+        margin-top:-40%;
+    }
+    .car-2 h1{
+        font-size:1.4rem;
+    }
+    .car-2 p{
+        font-size: 0.7rem;
+    }
+    .offtag{
+        display:none;
+    }
+    .search-h{
+        font-size:1.7rem;
+    }
+    .search-form-input{
+        font-size:1rem;
+        padding: .5rem 1rem;
+    }
+    .search-form-select{
+        font-size:1rem;
+        padding: .53rem 1rem;
+    }
+    .search-form-search{
+        font-size:.8rem;
+        padding: .65rem 1rem; 
+    }
+    .host-intro-h{
+        font-size: 1.6rem;
+    }
+    .host-intro-p{
+       font-size:  1.1rem;
+    }
+    .hosting-col{
+        padding: 0 10px;
+    }
+    .view-all{
+        padding: .7rem 1.6rem;
+        font-weight: 500;
+        font-size:1rem;
+    }
+    .build-h{
+        font-size:1.7rem;
+        font-weight: 700;
+    }
+    .build-p{
+        font-size:1.2rem;
+    }
+    .build-btn{
+        padding: .6rem 1.4rem;
+        font-size:1.2rem;
+    }
+    .build-fa{
+        font-size:3rem;
+        margin-top:2rem;
+    }
+    .serv-hh{
+        font-size: 1.9rem;
+        font-weight: 700;
+    }
+    .serv-hp{
+        font-size: 1.5rem;
+    }
+    .test-item-one, .test-item-two, .test-item-three{
+        padding: 4rem 2rem 8rem 2rem;
+    }
+    .why-hh{
+        font-size: 1.7rem;
+    }
+    .why-hp{
+        font-size:1.2rem;
+    }
+    .top-text{
+        display:none;
+    }
+    .top-fa-link{
+        margin-bottom: 1rem!important;
+    }
+    .fab{
+        margin-bottom: 16px!important;
+    }
+    .login-box{
+        position:relative;
+        left:60%;
+        top:7px;
+    }
+    
+}
+
+
+
+
+
+@media (min-width:767px){
+    .caption-car h1{
+        font-size:1.7rem;
+        margin-top:10px;
+    }
+    .caption-car h2{
+        font-size:1.4rem;
+    }
+    .getstarted{
+        padding: 9px 16px;
+    }
+    .caption-car{
+        margin-top: -40%;
+    }
+    .car-2{
+        margin-top:-40%;
+    }
+    .car-2 h1{
+        font-size:1.7rem;
+        margin-top:10px; 
+    }
+    .car-2 h2{
+        font-size:1.4rem;
+    }
+    .offtag{
+        display:none;
+    }
+    .search-form-search{
+        font-size:1.6rem;
+        padding: 1.3rem 1rem; 
+    }
+}
+
+
+
+@media (min-width:991px){
+    .search-form-search{
+        font-size:2rem;
+        padding:1rem 2rem;
+    }
+    .offtag{
+        display:block;
+    }
+    .caption-car{
+        margin-top:-40%;
+    }
+    .caption-car h1{
+        font-size: 2.3rem;
+    }
+    .getstarted{
+        padding: 1.2rem 1.5rem;
+    }
+    .offtag h3{
+        font-size:1.4rem;
+    }
+    .car-2 p{
+        margin-bottom:2.5rem;
+    }
+}
+
+
+
+
+@media (min-width: 1200px){
+    .offtag{
+        display:block;
+    }
+    .caption-car{
+        margin-top:-40%;
+    }
+    .caption-car h1{
+        font-size: 2.8rem;
+    }
+    .caption-car p{
+        font-size:1.6rem;
+    }
+    .caption-car h2{
+        font-size: 1.9rem;
+    }
+    .getstarted{
+        padding: 1.5rem 2.5rem;
+        font-size:1.7rem
+    }
+    .car-2{
+        margin-top: -45%;
+    }
+    .car-2 h1{
+        font-size: 2.6rem;
+    }
+    .car-2 p{
+        font-size:1.4rem;
+    }
+    
+}
+@media (max-width:991px){
+    .dropdownn{
+        position: static;
+        width:100%
+    }
+}

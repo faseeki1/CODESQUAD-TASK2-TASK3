@@ -1,0 +1,53 @@
+.ordernow{
+    padding:12px 18px;
+}
+.orderbtn{
+    background: rgb(51, 65, 110);
+    color: white;
+    padding:8px;
+}
+.orderbtn:hover{
+    background:white;
+    color:rgb(51, 65, 110);
+    border: 1px solid rgb(51, 65, 110);
+}
+.sec-p{
+    margin-bottom:12px;
+}
+.logo-h{
+    color:white;
+    margin-left: 1rem;
+    font-weight:bold;
+    text-shadow: 0 9px 18px  gray;
+}
+.logo-hs{
+    color:black;
+    margin-left: 1rem;
+    font-weight:bold;
+    text-shadow: 0 9px 18px  gray;
+}
+.addcart{
+    border: 1px solid gray;
+    padding:3px 10px;
+    border-radius: 1rem;
+    margin-top: 9px!important;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+.addcart:hover{
+    border: 1px solid white;
+    background: gray;
+    color: white;
+    padding: 3px 30px;
+}
+.start{
+    border: 1px solid gray;
+    padding:1rem;
+    border-radius: 1rem;
+    transition-property: padding;
+    transition-duration: 500ms;
+}
+.start:hover{
+    padding: 1rem 4rem;
+    color:white;
+}
